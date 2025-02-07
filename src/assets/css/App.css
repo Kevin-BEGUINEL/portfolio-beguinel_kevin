@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+/* Supprime la scrollbar pour Webkit (Chrome, Edge, Safari) */
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+}
+
+/* Cache la scrollbar sur Firefox */
+.scrollbar-hidden {
+    scrollbar-width: none;
+}
+
+/* Cache la scrollbar sur IE/Edge */
+.scrollbar-hidden {
+    -ms-overflow-style: none;
+}
+
+button {
+    /* curseur sur hover */
+    cursor: pointer;
+}

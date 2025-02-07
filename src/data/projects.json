@@ -1,0 +1,107 @@
+{
+    "projects": [
+        {
+            "title": "Portfolio Web",
+            "description": "Un site personnel mettant en avant mes compétences et projets.",
+            "image": "../assets/img/portfolio.png",
+            "skills": [
+                "React",
+                "TailwindCSS",
+                "TypeScript",
+                "HTML",
+                "CSS",
+                "Node.js",
+                "JSON"
+            ]
+        },
+        {
+            "title": "ConfigConvert",
+            "description": "Un convertisseur de configuration de cartes électroniques en JavaScript.",
+            "image": "../assets/img/ecommerce.png",
+            "skills": [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "Bootstrap",
+                "C++",
+                "JSON"
+            ]
+        },
+        {
+            "title": "LogiCheck",
+            "description": "Une application mobile de réalisation d'état des lieux.",
+            "image": "../assets/img/ecommerce.png",
+            "skills": [
+                "ReactNative",
+                "JavaScript",
+                "Node.js",
+                "Jest",
+                "PostgreSQL",
+                "SQLite",
+                "GitHub",
+                "Trello"
+            ]
+        },
+        {
+            "title": "1P'titJob",
+            "description": "Un site de mise en relation entre étudiants et entreprises pour des petits boulots.",
+            "image": "../assets/img/dashboard.png",
+            "skills": [
+                "HTML",
+                "CSS",
+                "PHP",
+                "MySQL",
+                "Gestion Agile",
+                "Trello",
+                "GitHub"
+            ]
+        },
+        {
+            "title": "Serveur de chat",
+            "description": "Un serveur de chat en C avec la librairie socket.",
+            "image": "../assets/img/ecommerce.png",
+            "skills": [
+                "C",
+                "Socket"
+            ]
+        },
+        {
+            "title": "Nuit de l'info 2024",
+            "description": "Réalisation d'un projet lié à l'environnement en une nuit",
+            "image": "../assets/img/ecommerce.png",
+            "skills": [
+                "React",
+                "TypeScript",
+                "HTML",
+                "CSS",
+                "JSON",
+                "GitHub",
+                "Docker"
+            ]
+        },
+        {
+            "title": "Projet Vente de CD",
+            "description": "Un site de vente de CD en Angular.",
+            "image": "../assets/img/dashboard.png",
+            "skills": [
+                "Angular",
+                "TypeScript",
+                "HTML",
+                "CSS",
+                "Node.js",
+                "JSON"
+            ]
+        },
+        {
+            "title": "Diaporama QT",
+            "description": "Un diaporama en C++ avec la librairie Qt.",
+            "image": "../assets/img/dashboard.png",
+            "skills": [
+                "C++",
+                "Qt",
+                "MySQL",
+                "GitHub"
+            ]
+        }
+    ]
+}
