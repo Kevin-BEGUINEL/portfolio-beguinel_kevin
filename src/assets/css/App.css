@@ -19,3 +19,12 @@ button {
     /* curseur sur hover */
     cursor: pointer;
 }
+
+.clip-triangle {
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+}
+
+.timelineColor {
+    background-color: #d7dcd9;
+}
+

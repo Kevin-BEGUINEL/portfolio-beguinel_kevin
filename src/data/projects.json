@@ -12,7 +12,27 @@
                 "CSS",
                 "Node.js",
                 "JSON"
-            ]
+            ],
+            "details": {
+                "github": "",
+                "url": "https://kevin-beguinel.github.io/",
+                "categorie": "Web",
+                "date": "2025",
+                "equipe": "Solo",
+                "fonction": "Développeur",
+                "contexte": "Projet personnel",
+                "information": [
+                    {
+                        "image": "../assets/img/portfolio.png"
+                    },
+                    {
+                        "sous-titre": "Description"
+                    },
+                    {
+                        "texte": "Un site personnel mettant en avant mes compétences et projets."
+                    }
+                ]
+            }
         },
         {
             "title": "ConfigConvert",
@@ -24,8 +44,27 @@
                 "CSS",
                 "Bootstrap",
                 "C++",
-                "JSON"
-            ]
+                "JSON",
+                "Trello"
+            ],
+            "details": {
+                "categorie": "Web",
+                "date": "2024",
+                "equipe": "Solo",
+                "fonction": "Développeur",
+                "contexte": "Stage et CDD",
+                "information": [
+                    {
+                        "image": "../assets/img/portfolio.png"
+                    },
+                    {
+                        "sous-titre": "Description"
+                    },
+                    {
+                        "texte": "Un site personnel mettant en avant mes compétences et projets."
+                    }
+                ]
+            }
         },
         {
             "title": "LogiCheck",
@@ -40,7 +79,25 @@
                 "SQLite",
                 "GitHub",
                 "Trello"
-            ]
+            ],
+            "details": {
+                "categorie": "Web et Mobile",
+                "date": "2024-2025",
+                "equipe": "En équipe de 5",
+                "fonction": "Développeur",
+                "contexte": "Projet universitaire",
+                "information": [
+                    {
+                        "image": "../assets/img/portfolio.png"
+                    },
+                    {
+                        "sous-titre": "Description"
+                    },
+                    {
+                        "texte": "Un site personnel mettant en avant mes compétences et projets."
+                    }
+                ]
+            }
         },
         {
             "title": "1P'titJob",
@@ -54,7 +111,26 @@
                 "Gestion Agile",
                 "Trello",
                 "GitHub"
-            ]
+            ],
+            "details": {
+                "github": "https://github.com/Kevin-BEGUINEL/1P-titJob",
+                "categorie": "Web",
+                "date": "2023-2024",
+                "equipe": "En équipe de 5",
+                "fonction": "Développeur, Scrum Master",
+                "contexte": "Projet universitaire",
+                "information": [
+                    {
+                        "image": "../assets/img/portfolio.png"
+                    },
+                    {
+                        "sous-titre": "Description"
+                    },
+                    {
+                        "texte": "Un site personnel mettant en avant mes compétences et projets."
+                    }
+                ]
+            }
         },
         {
             "title": "Serveur de chat",
@@ -63,7 +139,26 @@
             "skills": [
                 "C",
                 "Socket"
-            ]
+            ],
+            "details": {
+                "github": "https://github.com/Kevin-BEGUINEL/Serveur-de-chat",
+                "categorie": "Logiciel",
+                "date": "2025",
+                "equipe": "Solo",
+                "fonction": "Développeur",
+                "contexte": "Projet universitaire",
+                "information": [
+                    {
+                        "image": "../assets/img/portfolio.png"
+                    },
+                    {
+                        "sous-titre": "Description"
+                    },
+                    {
+                        "texte": "Un site personnel mettant en avant mes compétences et projets."
+                    }
+                ]
+            }
         },
         {
             "title": "Nuit de l'info 2024",
@@ -77,7 +172,26 @@
                 "JSON",
                 "GitHub",
                 "Docker"
-            ]
+            ],
+            "details": {
+                "github": "https://github.com/Kevin-BEGUINEL/TEK_ndi_2024",
+                "categorie": "Web",
+                "date": "2024",
+                "equipe": "En équipe de 8",
+                "fonction": "Développeur",
+                "contexte": "Compétition étudiante",
+                "information": [
+                    {
+                        "image": "../assets/img/portfolio.png"
+                    },
+                    {
+                        "sous-titre": "Description"
+                    },
+                    {
+                        "texte": "Un site personnel mettant en avant mes compétences et projets."
+                    }
+                ]
+            }
         },
         {
             "title": "Projet Vente de CD",
@@ -90,7 +204,26 @@
                 "CSS",
                 "Node.js",
                 "JSON"
-            ]
+            ],
+            "details": {
+                "github": "https://github.com/Kevin-BEGUINEL/R4_10-TP-Angular",
+                "categorie": "Web",
+                "date": "2024",
+                "equipe": "Solo",
+                "fonction": "Développeur",
+                "contexte": "Projet universitaire",
+                "information": [
+                    {
+                        "image": "../assets/img/portfolio.png"
+                    },
+                    {
+                        "sous-titre": "Description"
+                    },
+                    {
+                        "texte": "Un site personnel mettant en avant mes compétences et projets."
+                    }
+                ]
+            }
         },
         {
             "title": "Diaporama QT",
@@ -101,7 +234,26 @@
                 "Qt",
                 "MySQL",
                 "GitHub"
-            ]
+            ],
+            "details": {
+                "github": "https://github.com/Kevin-BEGUINEL/Lecteur-Diaporama",
+                "categorie": "Logiciel",
+                "date": "2023",
+                "equipe": "En équipe de 3",
+                "fonction": "Développeur",
+                "contexte": "Projet universitaire",
+                "information": [
+                    {
+                        "image": "../assets/img/portfolio.png"
+                    },
+                    {
+                        "sous-titre": "Description"
+                    },
+                    {
+                        "texte": "Un site personnel mettant en avant mes compétences et projets."
+                    }
+                ]
+            }
         }
     ]
 }

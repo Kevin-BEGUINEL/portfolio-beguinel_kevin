@@ -13,23 +13,24 @@
                 "TailwindCSS",
                 "Bootstrap"
             ],
-            "color": "bg-blue-500"
+            "color": "bg-blue-400"
         },
         {
             "category": "Développement Backend",
             "lstSkills": [
                 "Node.js",
                 "Laravel",
-                "PHP"
+                "Spring",
+                "PHP",
+                "Java"
             ],
             "color": "bg-green-500"
         },
         {
-            "category": "Langages de Programmation",
+            "category": "Autres Langages de Programmation",
             "lstSkills": [
                 "C",
                 "C++",
-                "Java",
                 "Python"
             ],
             "color": "bg-yellow-500"
@@ -38,6 +39,7 @@
             "category": "Frameworks et Librairies",
             "lstSkills": [
                 "Qt",
+                "Android Studio",
                 "Socket",
                 "Jest",
                 "Junit"
@@ -53,7 +55,7 @@
                 "SQLite",
                 "JSON"
             ],
-            "color": "bg-indigo-400"
+            "color": "bg-violet-600"
         },
         {
             "category": "DevOps et Gestion de Projet",

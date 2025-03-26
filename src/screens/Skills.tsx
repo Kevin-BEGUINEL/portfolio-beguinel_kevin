@@ -1,22 +1,13 @@
-import { useState, useEffect } from "react";
-
-interface SkillCategory {
-    category: string;
-    lstSkills: string[];
-    color: string;
-}
+import { useState } from "react";
+import { SkillCategory } from "../utils/types";
+import { useData } from "../context/DataContext";
 
 export default function Skills() {
-    const [skills, setSkills] = useState<SkillCategory[]>([]);
-
-    useEffect(() => {
-        import("../data/skills.json")
-            .then((data) => setSkills(data.skills))
-            .catch((error) => console.error("Erreur lors du chargement des compétences:", error));
-    }, []);
+    const data = useData();
+    const [skills] = data?.skills ? useState(data.skills) : useState<SkillCategory[]>([]);
 
     return (
-        <section className="flex flex-col items-center justify-center min-h-screen bg-stone-800 py-10">
+        <section className="flex flex-col items-center justify-center min-h-screen bg-gray-800 py-10">
             <h2 className="text-4xl font-bold text-center text-white mb-10">Mes Compétences</h2>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-6 max-w-6xl">

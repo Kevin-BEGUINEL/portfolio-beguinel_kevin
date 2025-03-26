@@ -19,7 +19,7 @@ export default function Navbar() {
               <button onClick={() => scrollToSection("accueil")} className="text-white mr-5">
                 <img src={photoProfil} alt="Logo" className="h-8 object-contain rounded-full" />
               </button>
-              <p>Mon Portfolio</p>
+              <p>Portfolio - BÉGUINEL Kévin</p>
             </div>
           </div>
 
@@ -29,7 +29,7 @@ export default function Navbar() {
             <button onClick={() => scrollToSection("experiences")} className="text-white hover:text-blue-500">Expériences</button>
             <button onClick={() => scrollToSection("projets")} className="text-white hover:text-blue-500">Projets</button>
             <button onClick={() => scrollToSection("competences")} className="text-white hover:text-blue-500">Compétences</button>
-            <button onClick={() => scrollToSection("contact")} className="text-white hover:text-blue-500">Contact</button>
+            <button onClick={() => scrollToSection("contact")} className="text-white hover:text-blue-500">Contacts</button>
           </div>
 
           {/* Menu Burger Mobile */}
@@ -49,7 +49,7 @@ export default function Navbar() {
             <button onClick={() => { scrollToSection("experiences"); setIsOpen(false) }} className="text-white hover:text-blue-500">Expériences</button>
             <button onClick={() => { scrollToSection("projets"); setIsOpen(false) }} className="text-white hover:text-blue-500">Projets</button>
             <button onClick={() => { scrollToSection("competences"); setIsOpen(false) }} className="text-white hover:text-blue-500">Compétences</button>
-            <button onClick={() => { scrollToSection("contact"); setIsOpen(false) }} className="text-white hover:text-blue-500">Contact</button>
+            <button onClick={() => { scrollToSection("contact"); setIsOpen(false) }} className="text-white hover:text-blue-500">Contacts</button>
           </div>
         </div>
       )

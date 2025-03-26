@@ -1,0 +1,17 @@
+{
+    "contact": {
+        "email": "beguinel.kevin@gmail.com",
+        "social" : [
+            {
+                "name": "github",
+                "url": "https://github.com/Kevin-BEGUINEL",
+                "icon": "FaGithub"
+            },
+            {
+                "name": "linkedin",
+                "url": "https://linkedin.com/in/kévin-béguinel-256825263",
+                "icon": "FaLinkedin"
+            }
+        ]
+    }
+}

@@ -1,17 +1,23 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-// import Experiences from "./Experiences";
+import { ReactNode } from "react";
+import Experiences from "./Experiences";
 import Projects from "./Projects";
 import Navbar from "../components/Navbar";
 import Skills from "./Skills";
-// import Contact from "./Contact";
-
-import { ReactNode } from "react";
+import Contact from "./Contact";
 
 import photoProfil from "../assets/img/photo_profil.jpg";
 import { scrollToSection } from "../utils/utils";
+import { useData } from "../context/DataContext";
+
 
 export default function Home() {
+
+    const data = useData();
+    if (!data) {
+        return <p className="text-white text-center">Chargement...</p>;
+    }
     return (
         <div className="relative scrollbar-hidden">
             <header>
@@ -63,9 +69,9 @@ export default function Home() {
                 </Section>
 
                 {/* Section Expériences */}
-                {/* <Section id="experiences">
+                <Section id="experiences">
                     <Experiences />
-                </Section> */}
+                </Section>
 
                 {/* Section Projets */}
                 <Section id="projets">
@@ -78,9 +84,9 @@ export default function Home() {
                 </Section>
 
                 {/* Section Contact */}
-                {/* <Section id="contact">
+                <Section id="contact">
                     <Contact />
-                </Section> */}
+                </Section>
             </main>
         </div>
     );
@@ -90,14 +96,11 @@ export default function Home() {
 
 
 function Section({ children, id }: { children: ReactNode, id?: string }) {
-    const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.2 });
+    const { ref } = useInView({ triggerOnce: true, threshold: 0.2 });
     return (
         <motion.section
             ref={ref}
             id={id}
-            className="opacity-0"
-            animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
-            transition={{ duration: 0.8 }}
         >
             {children}
         </motion.section>

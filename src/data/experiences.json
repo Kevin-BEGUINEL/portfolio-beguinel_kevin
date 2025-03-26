@@ -1,0 +1,58 @@
+{
+    "experiences": [
+        {
+            "poste": "Développeur web",
+            "entreprise": "Météo Omnium",
+            "lieu": "Bidart (64), France",
+            "date_debut": "04/2024",
+            "date_fin": "08/2024",
+            "typeExperience": "Stage et CDD",
+            "description": "Développement d'une application web de gestion de cartes météorologiques.",
+            "skills": [
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "Bootstrap",
+                "C++",
+                "JSON",
+                "Trello"
+            ]
+        },
+        {
+            "poste": "Développeur web",
+            "entreprise": "E-SCM",
+            "lieu": "Bassussary (64), France",
+            "date_debut": "03/2025",
+            "date_fin": "06/2025",
+            "typeExperience": "Stage",
+            "description": "Refonte d'une application web avec Angular et Java.",
+            "skills": [
+                "Angular",
+                "TypeScript",
+                "CSS",
+                "Java",
+                "Gestion Agile"
+            ]
+        }
+    ],
+    "formations": [
+        {
+            "diplome": "BUT Informatique",
+            "ecole": "Université de Bayonne",
+            "lieu": "Anglet (64), France",
+            "date_debut": "09/2022",
+            "date_fin": "06/2025",
+            "description": "Développement d'applications web et mobile, gestion de projets, bases de données, réseaux, sécurité informatique, etc.",
+            "skills": [
+                "Angular",
+                "Laravel",
+                "Java",
+                "C++",
+                "Python",
+                "Junit",
+                "MongoDB",
+                "Gestion Agile"
+            ]
+        }
+    ]
+}
