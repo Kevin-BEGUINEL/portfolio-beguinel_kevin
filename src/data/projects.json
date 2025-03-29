@@ -3,7 +3,7 @@
         {
             "title": "Portfolio Web",
             "description": "Un site personnel mettant en avant mes compétences et projets.",
-            "image": "../assets/img/portfolio.png",
+            "logo": "../assets/img/portfolio.png",
             "skills": [
                 "React",
                 "TailwindCSS",
@@ -26,10 +26,14 @@
                         "image": "../assets/img/portfolio.png"
                     },
                     {
-                        "sous-titre": "Description"
+                        "sousTitre": "Tâches réalisées :"
                     },
                     {
-                        "texte": "Un site personnel mettant en avant mes compétences et projets."
+                        "texte": [
+                            "Développement d’un site personnel en React avec TailwindCSS.",
+                            "Développement du front-end en React avec TypeScript.",
+                            "Développement d’un back-end en Node.js pour gérer les données avec du stockage en JSON."
+                        ]
                     }
                 ]
             }
@@ -37,7 +41,7 @@
         {
             "title": "ConfigConvert",
             "description": "Un convertisseur de configuration de cartes électroniques en JavaScript.",
-            "image": "../assets/img/ecommerce.png",
+            "logo": "/assets/img/logo_ConfigConvert.jpg",
             "skills": [
                 "JavaScript",
                 "HTML",
@@ -52,16 +56,22 @@
                 "date": "2024",
                 "equipe": "Solo",
                 "fonction": "Développeur",
-                "contexte": "Stage et CDD",
+                "contexte": "Stage et CDD - Météo Omnium",
                 "information": [
                     {
-                        "image": "../assets/img/portfolio.png"
+                        "image": "../assets/img/logo_ConfigConvert.jpg"
                     },
                     {
-                        "sous-titre": "Description"
+                        "sousTitre": "Tâches réalisées :"
                     },
                     {
-                        "texte": "Un site personnel mettant en avant mes compétences et projets."
+                        "texte": [
+                            "Développement d’un convertisseur de configuration de cartes électroniques utilisées par Météo Omnium en JavaScript.",
+                            "Développement d'un formulaire de configuration de cartes électroniques en HTML et CSS.",
+                            "Développement d'un algorithme de conversion de configuration de cartes électroniques en C++.",
+                            "Mise en place d’une gestion de projet avec Trello.",
+                            "Rédaction d'un cahier des charges."
+                        ]
                     }
                 ]
             }
@@ -69,7 +79,7 @@
         {
             "title": "LogiCheck",
             "description": "Une application mobile de réalisation d'état des lieux.",
-            "image": "../assets/img/ecommerce.png",
+            "logo": "/assets/img/logo_LogiCheck.jpg",
             "skills": [
                 "ReactNative",
                 "JavaScript",
@@ -88,13 +98,21 @@
                 "contexte": "Projet universitaire",
                 "information": [
                     {
-                        "image": "../assets/img/portfolio.png"
+                        "image": "/assets/img/logo_LogiCheck.jpg"
                     },
                     {
-                        "sous-titre": "Description"
+                        "sousTitre": "Tâches réalisées :"
                     },
                     {
-                        "texte": "Un site personnel mettant en avant mes compétences et projets."
+                        "texte": [
+                            "Développement d’une application mobile de réalisation d’état des lieux en React Native.",
+                            "Développement d'une application web de gestion des états des lieux en React.",
+                            "Développement d’un back-end en Node.js pour gérer les données avec du stockage en PostgreSQL et SQLite.",
+                            "Réalisation de tests unitaires avec Jest.",
+                            "Mise en place d’une gestion de projet avec Trello.",
+                            "Réalisation d'un cahier des charges et de documentation technique et utilisateur.",
+                            "Installation et déploiement de l’application sur un serveur."
+                        ]
                     }
                 ]
             }
@@ -102,7 +120,7 @@
         {
             "title": "1P'titJob",
             "description": "Un site de mise en relation entre étudiants et entreprises pour des petits boulots.",
-            "image": "../assets/img/dashboard.png",
+            "logo": "/assets/img/logo_1PtitJob.jpg",
             "skills": [
                 "HTML",
                 "CSS",
@@ -124,10 +142,15 @@
                         "image": "../assets/img/portfolio.png"
                     },
                     {
-                        "sous-titre": "Description"
+                        "sousTitre": "Tâches réalisées :"
                     },
                     {
-                        "texte": "Un site personnel mettant en avant mes compétences et projets."
+                        "texte": [
+                            "Définir et imaginer notre application (domaine, existant, argumentaire).",
+                            "Définir les caractéristiques de notre application (CDCF : DCU, maquettes, scénarios)",
+                            "Mettre en place une gestion de projet pour réaliser notre application (WBS, planification, coûts associés, daily meetings, rétrospective, livraison)",
+                            "Développement de notre application (front-end, back-end, base de données)"
+                        ]
                     }
                 ]
             }
@@ -135,7 +158,7 @@
         {
             "title": "Serveur de chat",
             "description": "Un serveur de chat en C avec la librairie socket.",
-            "image": "../assets/img/ecommerce.png",
+            "logo": "/assets/img/logo_ServeurChat.png",
             "skills": [
                 "C",
                 "Socket"
@@ -152,10 +175,14 @@
                         "image": "../assets/img/portfolio.png"
                     },
                     {
-                        "sous-titre": "Description"
+                        "sousTitre": "Tâches réalisées :"
                     },
                     {
-                        "texte": "Un site personnel mettant en avant mes compétences et projets."
+                        "texte": [
+                            "Développement d’un serveur de chat en C avec la librairie socket.",
+                            "Développement d’un client de chat en C avec la librairie socket.",
+                            "Réalisation d’un dossier d’analyse et de conception du projet."
+                        ]
                     }
                 ]
             }
@@ -163,7 +190,7 @@
         {
             "title": "Nuit de l'info 2024",
             "description": "Réalisation d'un projet lié à l'environnement en une nuit",
-            "image": "../assets/img/ecommerce.png",
+            "logo": "/assets/img/logo_NDI.jpg",
             "skills": [
                 "React",
                 "TypeScript",
@@ -185,10 +212,16 @@
                         "image": "../assets/img/portfolio.png"
                     },
                     {
-                        "sous-titre": "Description"
+                        "sousTitre": "Tâches réalisées :"
                     },
                     {
-                        "texte": "Un site personnel mettant en avant mes compétences et projets."
+                        "texte": [
+                            "Développement d’un site web en React en une nuit sur la thématique \"Et si l’océan était un corps humain ?\".",
+                            "Développement d'un jeu avec Unity",
+                            "Développement d'un jeu clicker en TypeScript",
+                            "Déploiement du site sur un serveur avec Docker",
+                            "Réalisation d’un rapport sur les impacts sur la vie privée de notre projet."
+                        ]
                     }
                 ]
             }
@@ -196,7 +229,7 @@
         {
             "title": "Projet Vente de CD",
             "description": "Un site de vente de CD en Angular.",
-            "image": "../assets/img/dashboard.png",
+            "logo": "/assets/img/logo_VenteCD.jpg",
             "skills": [
                 "Angular",
                 "TypeScript",
@@ -217,10 +250,14 @@
                         "image": "../assets/img/portfolio.png"
                     },
                     {
-                        "sous-titre": "Description"
+                        "sousTitre": "Tâches réalisées :"
                     },
                     {
-                        "texte": "Un site personnel mettant en avant mes compétences et projets."
+                        "texte": [
+                            "Développement d’un site de vente de CD en Angular.",
+                            "Développement du front-end en Angular avec Typescript.",
+                            "Développement d’un back-end en Node.js pour gérer les données avec du stockage en JSON."
+                        ]
                     }
                 ]
             }
@@ -228,7 +265,7 @@
         {
             "title": "Diaporama QT",
             "description": "Un diaporama en C++ avec la librairie Qt.",
-            "image": "../assets/img/dashboard.png",
+            "logo": "/assets/img/logo_DiaporamaQT.jpg",
             "skills": [
                 "C++",
                 "Qt",
@@ -247,10 +284,15 @@
                         "image": "../assets/img/portfolio.png"
                     },
                     {
-                        "sous-titre": "Description"
+                        "sousTitre": "Tâches réalisées :"
                     },
                     {
-                        "texte": "Un site personnel mettant en avant mes compétences et projets."
+                        "texte": [
+                            "Développement objet d’un lecteur de diaporama en C++ avec QT.",
+                            "Développement de fonctionnalités de base d’un lecteur de diaporama (changer de diapositive, lancer un mode automatique, changer de vitesse de défilement, etc).",
+                            "Utilisation d’une base de données afin d’accéder aux informations et aux images des diaporamas.",
+                            "Réalisation d’un dossier d’analyse et de conception du projet."
+                        ]
                     }
                 ]
             }

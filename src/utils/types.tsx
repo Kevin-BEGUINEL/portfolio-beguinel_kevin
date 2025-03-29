@@ -16,8 +16,26 @@ export interface SkillCategory {
 export interface Project {
     title: string;
     description: string;
-    image: string;
+    logo: string;
     skills: string[];
+    details?: ProjectDetails;
+}
+
+export interface ProjectDetails {
+    github: string;
+    url: string;
+    categorie: string;
+    date: string;
+    equipe: string;
+    fonction: string;
+    contexte: string;
+    information?: ProjectInformation[];
+}
+
+export interface ProjectInformation {
+    sousTitre: string;
+    texte: string[];
+    image: string;
 }
 
 export interface Experience {

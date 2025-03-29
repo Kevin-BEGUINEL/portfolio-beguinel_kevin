@@ -19,7 +19,7 @@ export default function Navbar() {
               <button onClick={() => scrollToSection("accueil")} className="text-white mr-5">
                 <img src={photoProfil} alt="Logo" className="h-8 object-contain rounded-full" />
               </button>
-              <p>Portfolio - BÉGUINEL Kévin</p>
+              <p>BÉGUINEL Kévin</p>
             </div>
           </div>
 

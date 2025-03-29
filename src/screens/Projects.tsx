@@ -1,7 +1,7 @@
-import { useState, useMemo, useCallback } from "react";
 import { Project } from "../utils/types";
 import { useData } from "../context/DataContext";
-import React from "react";
+import React, { useState, useMemo, useCallback } from "react";
+import ProjectModal from "../components/ProjectModal";
 
 export default function Projets() {
     const data = useData();
@@ -16,6 +16,8 @@ export default function Projets() {
     const [showFilters, setShowFilters] = useState(false);
     const [expandedCategories, setExpandedCategories] = useState<string[]>([]);
     const [visibleCount, setVisibleCount] = useState(6); // Pagination
+
+    const [selectedProject, setSelectedProject] = useState<Project | null>(null);
 
     // Utilisation de useMemo pour éviter le recalcul à chaque re-render
     const filteredProjects = useMemo(() => {
@@ -140,7 +142,12 @@ export default function Projets() {
             {filteredProjects.length > 0 ? (
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-4">
                     {filteredProjects.slice(0, visibleCount).map((project, index) => (
-                        <ProjectCard key={index} project={project} skillColors={skillColors} />
+                        <ProjectCard
+                            key={index}
+                            project={project}
+                            skillColors={skillColors}
+                            onClick={() => setSelectedProject(project)} // Ouvre la modale
+                        />
                     ))}
                 </div>
             ) : (
@@ -165,14 +172,23 @@ export default function Projets() {
                     </button>
                 )}
             </div>
+
+            {/* Modale pour afficher les détails du projet */}
+            {selectedProject && (
+                <ProjectModal
+                    project={selectedProject}
+                    onClose={() => setSelectedProject(null)} // Ferme la modale
+                    skillColors={skillColors} // Passe les couleurs des compétences
+                />
+            )}
         </section>
     );
 }
 
-const ProjectCard = React.memo(({ project, skillColors }: { project: Project; skillColors: { [key: string]: string } }) => {
+const ProjectCard = React.memo(({ project, skillColors, onClick }: { project: Project; skillColors: { [key: string]: string }; onClick: () => void }) => {
     return (
-        <div className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl shadow-lg overflow-hidden transform transition duration-500 hover:scale-105 cursor-pointer">
-            <img src={project.image} alt={project.title} className="w-full h-40 object-cover rounded-t-2xl" loading="lazy" />
+        <div className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl shadow-lg overflow-hidden transform transition duration-500 hover:scale-105 cursor-pointer" onClick={onClick}>
+            <img src={project.logo} alt={project.title} className="w-full h-40 object-cover rounded-t-2xl" />
             <div className="p-4">
                 <h3 className="text-lg font-semibold text-white">{project.title}</h3>
                 <p className="text-gray-300 text-sm">{project.description}</p>
