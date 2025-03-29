@@ -188,7 +188,7 @@ export default function Projets() {
 const ProjectCard = React.memo(({ project, skillColors, onClick }: { project: Project; skillColors: { [key: string]: string }; onClick: () => void }) => {
     return (
         <div className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl shadow-lg overflow-hidden transform transition duration-500 hover:scale-105 cursor-pointer" onClick={onClick}>
-            <img src={project.logo} alt={project.title} className="w-full h-40 object-cover rounded-t-2xl" />
+            <img src={project.logo} alt={project.title} className="w-full h-40 object-cover rounded-t-2xl" loading="lazy"/>
             <div className="p-4">
                 <h3 className="text-lg font-semibold text-white">{project.title}</h3>
                 <p className="text-gray-300 text-sm">{project.description}</p>

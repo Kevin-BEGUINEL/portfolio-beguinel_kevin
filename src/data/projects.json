@@ -3,7 +3,7 @@
         {
             "title": "Portfolio Web",
             "description": "Un site personnel mettant en avant mes compétences et projets.",
-            "logo": "../assets/img/portfolio.png",
+            "logo": "/assets/img/logo_Portfolio.png",
             "skills": [
                 "React",
                 "TailwindCSS",

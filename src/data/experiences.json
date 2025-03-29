@@ -23,7 +23,7 @@
             "entreprise": "E-SCM",
             "lieu": "Bassussary (64), France",
             "date_debut": "03/2025",
-            "date_fin": "06/2025",
+            "date_fin": "07/2025",
             "typeExperience": "Stage",
             "description": "Refonte d'une application web avec Angular et Java.",
             "skills": [
@@ -41,7 +41,7 @@
             "ecole": "Université de Bayonne",
             "lieu": "Anglet (64), France",
             "date_debut": "09/2022",
-            "date_fin": "06/2025",
+            "date_fin": "07/2025",
             "description": "Développement d'applications web et mobile, gestion de projets, bases de données, réseaux, sécurité informatique, etc.",
             "skills": [
                 "Angular",
